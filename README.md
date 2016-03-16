@@ -1,2 +1,2 @@
-# VimSetting
-my own vim plugin settings
+# ToolsSetting
+my own toolchain settings
