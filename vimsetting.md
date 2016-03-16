@@ -71,5 +71,35 @@ filetype plugin indent on
 
 let g:NERDTreeDirArrows=0
 map <F1> :NERDTreeToggle<CR>
-set nu!
+
+set nocompatible
+set nu sts=4 ts=4 sw=4 et si ai
+set ruler
+set hlsearch
+syntax on
+filetype plugin on
+set whichwrap+=<,>,h,l
+set backspace=indent,eol,start
+set clipboard+=unnamed
+
+map <F5> :call CompileRunGcc()<CR>
+fun! CompileRunGcc()
+exec "w"
+exec "!gcc % -o %<"
+exec "! ./%<"
+endfunc
+
+map <F6> :call CompileRunGpp()<CR>
+fun! CompileRunGpp()
+exec "w"
+exec "!g++ % -o %<"
+exec "! ./%<"
+endfunc
+
+map <F7> :call Rungdb()<CR><CR><CR>
+fun! Rungdb()
+exec "w"
+exec "!gcc % -g -o %<"
+exec "!gdb %<"
+endfunc
 ```
