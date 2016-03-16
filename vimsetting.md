@@ -22,15 +22,11 @@ bundle分为三类：
     查找插件:BundleSearch
 
 ####有用链接：
-[vim中的杀手级插件：vundle](http://zuyunfei.com/2013/04/12/killer-plugin-of-vim-vundle/)
-
-[使用vundle进行插件管理](http://www.jianshu.com/p/mHUR4e)
-
-[Ctrlp](http://zuyunfei.com/2013/08/26/vim-plugin-ctrlp/)
-
-[Vim插件Ctrlp](http://www.wklken.me/posts/2015/06/07/vim-plugin-syntastic.html)
-
-[Syntax](http://www.wklken.me/posts/2015/06/07/vim-plugin-syntastic.html)
+- [vim中的杀手级插件：vundle](http://zuyunfei.com/2013/04/12/killer-plugin-of-vim-vundle/)
+- [使用vundle进行插件管理](http://www.jianshu.com/p/mHUR4e)
+- [Ctrlp](http://zuyunfei.com/2013/08/26/vim-plugin-ctrlp/)
+- [Vim插件Ctrlp](http://www.wklken.me/posts/2015/06/07/vim-plugin-syntastic.html)
+- [Syntax](http://www.wklken.me/posts/2015/06/07/vim-plugin-syntastic.html)
 
 ####编辑一下内容到~/.vimrc：
 ```
