@@ -69,7 +69,9 @@ Bundle 'scrooloose/nerdtree'
 "......................................
 filetype plugin indent on
 
-let g:NERDTreeDirArrows=0
+" let g:NERDTreeDirArrows=0
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '>'
 map <F1> :NERDTreeToggle<CR>
 
 set nocompatible
