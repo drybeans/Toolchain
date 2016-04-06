@@ -20,6 +20,7 @@
 - [使用pyenv-virtual](http://ju.outofmemory.cn/entry/105367)
 - [用pyenv搭建多版本Python虚拟环境](http://www.it165.net/pro/html/201405/13603.html)
 - [Python多版本共存只pyenv](http://seisman.info/python-pyenv.html)
+- [pyenv-virtualenv initialisation failing](https://github.com/yyuu/pyenv-virtualenv/issues/36#ref-commit-e0fa11e)
 
 ###virtualenv
 > pip install virtualenv
