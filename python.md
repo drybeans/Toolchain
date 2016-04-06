@@ -7,6 +7,7 @@
 - 安装完pyenv之后需要对数据库进行更新：pyenv rehash
 - 设置全局Python环境：pyenv global 2.7.1
 - 设置当前目录Python环境：pyenv local 2.7.1
+- 在mac os下以framework形式安装Python：env PYTHON_CONFIGURE_OPTS="--enable-framework CC=clang" pyenv install 2.7.6
 
 ###pyenv-virtualenv
 > brew install pyenv-virtualenv 
@@ -43,5 +44,6 @@ pyenv install -v 3.5.0
 ####可用链接
 - [OSX下的Python多版本管理器pyenv的安装设置](http://python.jobbole.com/84621/)
 
-####pip安装pylab
+####安装问题解决
 - [unknown locale: UTF-8解决方法](https://www.phodal.com/blog/unknown-locale-utf-8/)
+- [building framework variants of Python on MacOS X](https://github.com/yyuu/pyenv/issues/99)
