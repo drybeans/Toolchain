@@ -42,3 +42,6 @@ pyenv install -v 3.5.0
 
 ####可用链接
 - [OSX下的Python多版本管理器pyenv的安装设置](http://python.jobbole.com/84621/)
+
+####pip安装pylab
+- [unknown locale: UTF-8解决方法](https://www.phodal.com/blog/unknown-locale-utf-8/)
