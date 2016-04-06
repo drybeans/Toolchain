@@ -3,7 +3,7 @@
 
 - 查看已安装版本：pyenv versions
 - 查看可安装版本：pyenv install --list
-- 安装特定版本的python：pyenv install <version>
+- 安装特定版本的python：pyenv install \<version\>
 - 安装完pyenv之后需要对数据库进行更新：pyenv rehash
 - 设置全局Python环境：pyenv global 2.7.1
 - 设置当前目录Python环境：pyenv local 2.7.1
