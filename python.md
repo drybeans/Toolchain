@@ -38,3 +38,6 @@
 - CFLAGS="-I$(brew --prefix openssl)/include -I$(xcrun --show-sdk-path)/usr/include" \
 LDFLAGS="-L$(brew --prefix openssl)/lib" \
 pyenv install -v 3.5.0
+
+####可用链接
+- [OSX下的Python多版本管理器pyenv的安装设置](http://python.jobbole.com/84621/)
