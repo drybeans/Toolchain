@@ -31,3 +31,10 @@
 ####可用链接
 - [virtualenv -- python虚拟沙盒](http://www.cnblogs.com/tk091/p/3700013.html)
 - [VirtualEnv 和Pip 构建Python的虚拟工作环境](https://www.v2ex.com/t/42760)
+
+###安装Python3.5.0问题
+在mac上安装3.5.0版本Python，出现can't decompress data zlib not available mac，应该是系统刚升级Xcode命令行工具没安装好，可通过以下两种方案解决：
+- xcode-select --install #输入改命令之后再安装
+- CFLAGS="-I$(brew --prefix openssl)/include -I$(xcrun --show-sdk-path)/usr/include" \
+LDFLAGS="-L$(brew --prefix openssl)/lib" \
+pyenv install -v 3.5.0
