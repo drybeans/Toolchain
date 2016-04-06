@@ -15,8 +15,19 @@
 - pyenv activate env_name       #激活 env 这个环境, 此时 Python 版本自动变为 3.3.0, 且是独立环境
 - pyenv deactivate              #离开已经激活的环境
 
-###可用链接
+####可用链接
 - [Anaconda](http://seisman.info/anaconda-scientific-python-distribution.html)
 - [使用pyenv-virtual](http://ju.outofmemory.cn/entry/105367)
 - [用pyenv搭建多版本Python虚拟环境](http://www.it165.net/pro/html/201405/13603.html)
 - [Python多版本共存只pyenv](http://seisman.info/python-pyenv.html)
+
+###virtualenv
+> pip install virtualenv
+
+- virtualenv test_env --no-site-packages #创建虚拟环境，不使用系统依赖库
+- cd test_env & source ./bin/activate #启用虚拟环境
+- deactivate #退出虚拟环境
+
+####可用链接
+- [virtualenv -- python虚拟沙盒](http://www.cnblogs.com/tk091/p/3700013.html)
+- [VirtualEnv 和Pip 构建Python的虚拟工作环境](https://www.v2ex.com/t/42760)
